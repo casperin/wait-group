@@ -1,0 +1,25 @@
+{
+  "name": "wait-group",
+  "version": "1.0.0",
+  "description": "Lose implementation of Golang's WaitGroup",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/casperin/wait-group.git"
+  },
+  "keywords": [
+    "async"
+  ],
+  "author": "Gorm Casper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/casperin/wait-group/issues"
+  },
+  "homepage": "https://github.com/casperin/wait-group#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
