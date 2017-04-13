@@ -62,7 +62,7 @@ someCallbackyRequest('/api/gimme-a', function (err, data) {
   results.a = data
 })
 
-// first
+// second
 wg.add(1)
 someCallbackyRequest('/api/gimme-b', function (err, data) {
   wg.done()
@@ -81,5 +81,7 @@ someCallbackyRequest('/api/gimme-c', function (err, data) {
 
 ## License
 
-It's less than 50 lines of code. Why are you reading this? Well, it's MIT of course.
+It's less than 50 lines of code. Why are you reading this?
+
+MIT
 
