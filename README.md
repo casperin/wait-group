@@ -1,5 +1,7 @@
 # Wait Group
 
+[![CircleCI](https://circleci.com/gh/casperin/wait-group.svg?style=svg)](https://circleci.com/gh/casperin/wait-group)
+
 Lose implementation of Golang's `WaitGroup`. It offers a different, very simple, way of working with async control flows.
 
 Its strength is its simplicity. It offers no help dealing with errors or data as such (you have to use scope for that). In return you get a ridiculously simple interface.
