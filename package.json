@@ -1,6 +1,6 @@
 {
   "name": "wait-group",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lose implementation of Golang's WaitGroup",
   "main": "index.js",
   "scripts": {
